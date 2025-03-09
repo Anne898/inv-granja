@@ -71,7 +71,7 @@
 
     #button-container {
       position: absolute;
-      bottom: 110px;
+      bottom: 160px;
       left: 50%;
       transform: translateX(-50%);
       display: flex;
@@ -178,7 +178,7 @@
       video.addEventListener('timeupdate', function () {
         var currentTime = video.currentTime;
 
-        if (currentTime >= 31.8) {
+        if (currentTime >= 31.16) {
           botonDireccion.style.opacity = '1';
           botonDireccion.style.pointerEvents = 'auto';
         } else {
@@ -186,7 +186,7 @@
           botonDireccion.style.pointerEvents = 'none';
         }
 
-        if (currentTime >= 31.8 ) {
+        if (currentTime >= 31.16 ) {
           botonAsistencia.style.opacity = '1';
           botonAsistencia.style.pointerEvents = 'auto';
         } else {
